@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App</title>
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Weather App!</h1>
+        <div class="main-app">
+            <form class="city-form">
+                <input type="text" class="city-input" id="autocomplete">
+                <button type="submit" class="get-weather-button">Get Weather!</button>
+            </form>
+            <br>
+            <p id="displayCity"></p>
+            <div>
+                <canvas id="icon" width="128" height="128"></canvas>
+            </div>
+            <div class="city-weather"></div>
+            <p id="summary"></p>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/skycons.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbNeSnuY3Hq2uLAaw8CqBIxjo9awlC88c&libraries=places"></script>
+    <script src="js/autocomplete.js"></script>
+</body>
+</html>

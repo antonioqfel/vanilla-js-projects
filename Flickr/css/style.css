@@ -1,0 +1,32 @@
+img {
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+    box-shadow: 8px 8px 10px #aaa;
+}
+
+img:hover {
+    filter: sepia(60%);
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    margin-left: 1.66%;
+    font-size: 23px;
+    font-weight: 800;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    padding-bottom: 20px;
+}
+
+form {
+    margin-left: 1.66%;
+}
+
+input[type="text"] {
+    font-family: 'Raleway', sans-serif;
+}
+
+button {
+    font-family: 'Raleway', sans-serif;
+}

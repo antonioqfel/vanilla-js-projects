@@ -1,0 +1,20 @@
+body {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+button {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+input[type="text"] {
+    font-family: 'Maven Pro', sans-serif;
+    width: 200px;
+}
+
+.error {
+    color: red;
+}
+
+#displayCity {
+    font-weight: bold;
+}
